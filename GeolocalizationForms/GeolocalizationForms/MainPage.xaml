@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeolocalizationForms.MainPage">
+
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Image Margin="0,50,0,0" x:Name="imgBanner" Source="https://esfot.epn.edu.ec/images/headers/logo_esfot_buho.png" ></Image>
+            <Image Margin="0,0,0,10" x:Name="imgXamarinEssential" Source="https://josusierra.files.wordpress.com/2021/12/android-vs-ios_1200x675.jpg" ></Image>
+            <Label Margin="0,0,0,10" Text="Geolocation" FontAttributes="Bold" FontSize="Large" TextColor="#7FFFD4" HorizontalTextAlignment="Center" ></Label>
+            <Button x:Name="btnLocation" Text="Get Location" Clicked="btnLocation_Clicked" BackgroundColor="#FF7F50"/>
+            <Label HorizontalTextAlignment="Center" x:Name="lblLatitude"></Label>
+            <Label HorizontalTextAlignment="Center" x:Name="lblLongitude"></Label>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
